@@ -1,0 +1,46 @@
+<html lang="pt-br">
+	<head>
+	  <title>portugol</title>
+	  <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+	</head>
+	<body>
+	  <button onclick="addIf()">se</button>
+	  <button onclick="addVar()">variavel</button>
+	  <button onclick="addFunc()">funcao</button>
+	  <button onclick="addFor()">loop para</button>
+	  <button onclick="addWhile()">loop enquanto</button>
+	  <button onclick="addComments()">comentario</button>
+	  <button onclick="clearConsole()">limpar console</button>
+	  <button onclick="escreverMensagem()">escrever mensagem</button>
+	  <center>
+	    <textarea id="code"></textarea>
+	    <button onclick="execute()">Executar código</button>
+	  </center>
+	  <p>feito por Breno</p>
+	</body>
+	<style>
+	  *{
+		  background-color :gray;
+	  }
+	  #code{
+		  font-family :"Space Mono", monospace;
+		  background-color :black;
+		  color :white;
+		  width :900px;
+		  height :500px;
+	  }
+	  p{
+		  font-family :'Arial';
+	  }
+	  h1{
+		  font-family :'Arial';
+	  }
+	  button{
+		  background-color :white;
+		  font-family :'Arial';
+	  }
+	</style>
+</html>
+<script src="script.js"></script>
